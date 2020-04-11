@@ -1,0 +1,3 @@
+### Task 1 for creating directory:
+mkdir -p  a/{b/{d/{i/m/z,j/l/z},e/h/l/z},c/{f/h/l/z,g/k/l/z}}
+tree a

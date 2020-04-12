@@ -15,6 +15,17 @@ sudo su - ttt
 date
 
 
+### Task 3. Copying user data of user A in user B and vice versa
+
+adduser B
+su B
+mkdir D01
+adduser A
+su A
+mkdir D02
+sudo cp /home/B/D01 /home/A/D02
+su B
+sudo cp /home/A/D02 /home/B/D01
 
 
 

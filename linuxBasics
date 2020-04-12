@@ -39,6 +39,6 @@ sudo cp /home/A/D02/b.txt /home/B/D01/a.txt
 
 
 
-### Task 4 : run cal command in every 10sec and store output in /tmp/y.txt
+### Task 4 :Run cal command for 10 secs store output in a file  /tmp/y.txt
 
 watch -n10 cal > /tmp/y.txt
